@@ -1,0 +1,422 @@
+/* puplic */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Alegreya', serif;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clrfix{
+    clear: both;
+}
+a{
+    text-decoration: none;
+}
+/* start header */
+.header{
+background-image: url(../img/img.jpg);    
+text-align: center;
+color: white;
+height: 100vh;
+background-size: cover;
+}
+.overlay{
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.navbar{
+    overflow: hidden;
+    padding-top: 20px;
+}
+.navbar .logo{
+    float: left;
+    width: 40%;
+}
+.navbar .logo img{
+    width:25%;
+
+}
+.navbar .nav{
+    float: left;
+    width: 60%;
+    padding-top: 10px;
+}
+.navbar .nav .list-item{
+    display: inline-block;
+}
+.navbar .nav .list-item a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.header-content{
+    padding-top: 50px;
+}
+.header .header-content img{
+    width: 25%;
+    margin-top: -20px;
+}
+.header .header-content h1{
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.header .header-content p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-bottom: 30px ;
+}
+.btn{
+    padding: 15px 30px;
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+}
+.btn-learn{
+    background-color: #c1ab84;
+    color: white;
+    margin-right: 20px;
+}
+.btn-learn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/* end header*/
+
+/* start about*/
+.about-img{
+    float: left;
+    width: 40%;
+}
+.about-img img{
+    width: 100%;
+}
+.about-content{
+    float: left;
+    width: 60%;
+}
+.about .container{
+    overflow: hidden;
+    width: 60%;
+    text-align: center;
+    padding-top: 100px;
+}
+.about-content h2{
+    font-size: 36px;
+    color: rgb(37, 48, 72);
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.about-content h3{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(193, 171, 132);
+    margin-bottom: 20px;
+    text-align: left;
+}
+.about-content p{
+    line-height: 30px;
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-family: 'Alegreya ';
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+.about-content ul li{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.about-content ul li i{
+    background-color: rgb(193, 171, 132);
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    float: left;
+}
+.about-content ul li span{
+    float: left;
+    color: rgb(104, 104, 104);
+    margin-top: 35px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: "Alegreya Sans";
+}
+/* end about*/
+
+/* start reviewers */
+.reviewers{
+    background-color: rgb(248, 248, 248);
+    padding: 70px;
+}
+.reviewers-desc{
+   float: left;
+   width: 60%;
+}
+.reviewers-desc h2{
+    color:rgb(37, 48, 72);
+   font-size: 36px;
+   font-weight: 400;
+   font-family: "Alegreya";
+   margin-bottom: 10px;
+}
+.reviewers-desc h3{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(193, 171, 132);
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.reviewers-desc p{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+    width: 79%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.reviewers-desc i{
+ color: rgb(193, 171, 132) ;
+ margin-bottom: 20px;
+ margin-right: 30px;
+}
+.reviewers-desc span{
+    font-family: "Alegreya Sans";
+    color: rgb(104, 104, 104) ;
+    font-size: 18px;
+}
+.reviewers-img{
+    float: left;
+    width:40%;
+}
+.reviewers-img img{
+  width: 100%;
+}
+/* end reviewers */
+
+.cover{
+    background-image: url('../img/shutterstock_280369721.jpg');
+    padding: 250px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* start menu */
+.menu{
+    text-align: center;
+    padding-top: 50px;
+}
+.menu h2{
+    font-size: 36px;
+    font-weight: 400;
+    font-size: 28px;
+    color: rgb(37, 48, 72);
+    font-family: "Alegreya";
+    margin: bottom 10px;: ;
+}
+.menu .subheading{
+    color: rgb(193, 171, 132);
+    font-family: "Dancing Script";
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.menu-content .item{
+    float: left;
+    width: 33.33%;
+}
+.menu-content img{
+    width: 80%;
+}
+.menu-content .item h3{ 
+ font-size: 21px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ color: rgb(37, 48, 72);
+ font-weight: 400;
+ font-family:  "Alegreya";
+}
+.menu-content .item p{
+    width: 100%;
+    margin: auto;
+    line-height: 30px;
+    color: rgb(104, 104, 104);
+    font-family: "Alegreya Sans" ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.menu-content button{
+    background-color: #c1ab84;
+    color: white;
+    font-size: 16px;
+    font-family: "Alegreya Sans"    ;
+    padding: 11px 20px;
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+/* end menu */
+
+/* start location section*/
+.location{
+    margin-top: 60px;
+    background-color: rgb(248, 248, 248);
+    padding: 70px;
+}
+.location-desc{
+   float: left;
+   width: 50%;
+}
+.location-desc h2{
+    color:253048;
+   font-size: 36px;
+   font-weight: 400;
+   font-family: "Alegreya";
+   margin-bottom: 10px;
+}
+.location-desc p{
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+    width: 79%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.location-desc h3{
+    font-family: "Alegreya Sans";
+    color: rgb(104, 104, 104)    ;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.location-desc i{
+ background-color: #c1ab84;
+ color: white;
+ padding: 10px;
+ margin-bottom: 20px;
+ margin-right: 30px;
+ font-size: 18px;
+ border-radius: 50%;
+ text-align: left;
+}
+.location-desc span{
+    font-family: "Alegreya Sans";
+    color: rgb(104, 104, 104) ;
+    font-size: 18px;
+}
+.location-map{
+    float: left;
+    width:50%;
+}
+.location-map map{
+    width: 100%;
+  }
+/*end location section*/
+
+/* start footer section*/
+.footer{
+    background-color:#403d38;
+    padding-top: 30px;
+    color: white;
+}
+.footer .footer-content{
+    overflow: hidden;
+}
+.footer .item{
+   float: left;
+   width: 25%;
+   color: #969696;
+}
+.footer .item h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Alegreya";
+    margin-bottom: 30px;
+}
+.footer .item p{
+    width: 84%;
+    font-family: "Alegreya Sans";
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.footer .item a{
+    color: #A9A9A9;
+    margin-bottom: 20px;
+    display: block;
+    transition: color 1s;
+    font-size: 14px;
+}
+.footer .item a:hover{
+    color: #fff;
+}
+.footer .item a:before{
+    content: "\f105";
+    font-family: FontAwesome;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.footer .footer-content li{
+    margin-bottom: 20px;
+}
+.footer .footer-content li i{
+    margin-right: 10px;
+}
+.footer .footer-second{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+}
+.footer .footer-second p{
+    color: #969696;
+    font-size: 14px;
+    width: 16%;
+    margin: auto;
+}
+.footer .footer-second .icons{
+   margin-top: 30px;
+}
+.footer .footer-second .icons i{
+    background-color: #484540;
+    color: #969696;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    transition: all 1s;
+}
+.footer .footer-second .icons i:hover{
+    background-color: #3b5998;
+    color: #fff;
+}
+
+/* end footer section*/
